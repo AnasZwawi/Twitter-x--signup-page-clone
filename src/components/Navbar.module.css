@@ -1,0 +1,32 @@
+.navbarContainer{
+  width: 100%;
+  position: sticky;
+  top: 0;
+  height: fit-content;
+  background-color: #070707ea;
+  backdrop-filter: blur(5px);
+  border-bottom: solid 1px rgb(64, 64, 64);
+  padding-left: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+
+.reg{
+  display: flex;
+}
+
+.reg p{
+  padding: 0.8rem 1.3rem;
+}
+
+.reg p:hover,
+.reg p.active{
+  background-color:rgb(38, 38, 38);
+}
+
+.link{
+  text-decoration: none;
+  color: initial;
+}
